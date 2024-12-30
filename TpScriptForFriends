@@ -1,0 +1,218 @@
+local star = game.Players.LocalPlayer.PlayerGui
+local sg = Instance.new("ScreenGui", star)
+--[Name for ScreenGui]--
+sg.Name = "TestGui"
+sg.AutoLocalize = false
+--[Create button in ScreenGui]--
+--[Button open]--
+local buttOpen = Instance.new("TextButton", sg)
+buttOpen.Text = "Open"
+buttOpen.Name = "TestButtonTextOpen"
+buttOpen.Position = UDim2.new(0,1040,0,575)
+buttOpen.Size = UDim2.new(0,57,0,22)
+--[1 Button]--
+local button1 = Instance.new("TextButton", sg)
+button1.Text = "Speed 160"
+button1.Name = "TestButtonText1"
+button1.Position = UDim2.new(0,453,0,230)
+button1.Size = UDim2.new(0,57,0,22)
+--[2 Button]--
+local button2 = Instance.new("TextButton", sg)
+button2.Text = "Speed Default"
+button2.Name = "TestButtonText2"
+button2.Position = UDim2.new(0,453,0,260)
+button2.Size = UDim2.new(0,74,0,22)
+--[3 Button]--
+local button3 = Instance.new("TextButton", sg)
+button3.Text = "TrickOfReat"
+button3.Name = "TestButtonText3"
+button3.Position = UDim2.new(0,453,0,290)
+button3.Size = UDim2.new(0,67,0,22)
+--[4 Button]--
+local button4 = Instance.new("TextButton", sg)
+button4.Text = "Balastt"
+button4.Name = "TestButtonText4"
+button4.Position = UDim2.new(0,453,0,320)
+button4.Size = UDim2.new(0,57,0,22)
+--[5 Button]--
+local button5 = Instance.new("TextButton", sg)
+button5.Text = "Roman_10003"
+button5.Name = "TestButtonText5"
+button5.Position = UDim2.new(0,453,0,350)
+button5.Size = UDim2.new(0,74,0,22)
+--[6 Button]--
+local button6 = Instance.new("TextButton", sg)
+button6.Text = "vv123sss"
+button6.Name = "TestButtonText6"
+button6.Position = UDim2.new(0,515,0,230)
+button6.Size = UDim2.new(0,57,0,22)
+--[7 Button]--
+local button7 = Instance.new("TextButton", sg)
+button7.Text = "Nikita_2012sonik"
+button7.Name = "TestButtonText7"
+button7.Position = UDim2.new(0,538,0,260)
+button7.Size = UDim2.new(0,87,0,22)
+--[8 Button]--
+local button8 = Instance.new("TextButton", sg)
+button8.Text = "Barsewi4347"
+button8.Name = "TestButtonText8"
+button8.Position = UDim2.new(0,533,0,290)
+button8.Size = UDim2.new(0,69,0,22)
+--[9 Button]--
+local button9 = Instance.new("TextButton", sg)
+button9.Text = "ServerMortis1"
+button9.Name = "TestButtonText9"
+button9.Position = UDim2.new(0,520,0,320)
+button9.Size = UDim2.new(0,73,0,22)
+--[10 Button]--
+local button10 = Instance.new("TextButton", sg)
+button10.Text = "ServerMortis2"
+button10.Name = "TestButtonText10"
+button10.Position = UDim2.new(0,537,0,350)
+button10.Size = UDim2.new(0,73,0,22)
+--[11 Button]--
+local button11 = Instance.new("TextButton", sg)
+button11.Text = "ServerMortis3"
+button11.Name = "TestButtonText11"
+button11.Position = UDim2.new(0,581,0,230)
+button11.Size = UDim2.new(0,73,0,22)
+--[12 Button]--
+local button12 = Instance.new("TextButton", sg)
+button12.Text = "ServerMortis4"
+button12.Name = "TestButtonText12"
+button12.Position = UDim2.new(0,632,0,260)
+button12.Size = UDim2.new(0,73,0,22)
+--[13 Button]--
+local button13 = Instance.new("TextButton", sg)
+button13.Text = "Back for centre"
+button13.Name = "TestButtonText13"
+button13.Position = UDim2.new(0,612,0,290)
+button13.Size = UDim2.new(0,78,0,22)
+--[Scripts for Buttons]--
+local function butt1()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 160
+end
+
+button1.MouseButton1Click:Connect(butt1)
+
+local function butt2()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end
+
+button2.MouseButton1Click:Connect(butt2)
+
+local function butt3()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.TrickOfReat.Character.HumanoidRootPart.CFrame
+end
+
+button3.MouseButton1Click:Connect(butt3)
+
+local function butt4()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.Balastt.Character.HumanoidRootPart.CFrame
+end
+
+button4.MouseButton1Click:Connect(butt4)
+
+local function butt5()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.Roman_10003.Character.HumanoidRootPart.CFrame
+end
+
+button5.MouseButton1Click:Connect(butt5)
+
+local function butt6()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.vv123sss.Character.HumanoidRootPart.CFrame
+end
+
+button6.MouseButton1Click:Connect(butt6)
+
+local function butt7()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.Nikita_2012sonik.Character.HumanoidRootPart.CFrame
+end
+
+button7.MouseButton1Click:Connect(butt7)
+
+local function butt8()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.Barsewi4347.Character.HumanoidRootPart.CFrame
+end
+
+button8.MouseButton1Click:Connect(butt8)
+
+local function butt9()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.ServerMortis1.Character.HumanoidRootPart.CFrame
+end
+
+button9.MouseButton1Click:Connect(butt9)
+
+local function butt10()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.ServerMortis2.Character.HumanoidRootPart.CFrame
+end
+
+button10.MouseButton1Click:Connect(butt10)
+
+local function butt11()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.ServerMortis3.Character.HumanoidRootPart.CFrame
+end
+
+button11.MouseButton1Click:Connect(butt11)
+
+local function butt12()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.ServerMortis4.Character.HumanoidRootPart.CFrame
+end
+
+button12.MouseButton1Click:Connect(butt12)
+
+local function butt13()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(100.616119, 439.510559, -90.3792038, -0.918585002, 9.18992105e-10, -0.395223528, 4.67496157e-08, 1, -1.0633098e-07, 0.395223528, -1.16150588e-07, -0.918585002)
+end
+
+button13.MouseButton1Click:Connect(butt13)
+
+button1.Visible = false
+button2.Visible = false
+button3.Visible = false
+button4.Visible = false
+button5.Visible = false
+button6.Visible = false
+button7.Visible = false
+button8.Visible = false
+button9.Visible = false
+button10.Visible = false
+button11.Visible = false
+button12.Visible = false
+button13.Visible = false
+
+local function buttopen()
+    if button1.Visible == true then
+    button1.Visible = false
+    button2.Visible = false
+    button3.Visible = false
+    button4.Visible = false
+    button5.Visible = false
+    button6.Visible = false
+    button7.Visible = false
+    button8.Visible = false
+    button9.Visible = false
+    button10.Visible = false
+    button11.Visible = false
+    button12.Visible = false
+    button13.Visible = false
+    buttOpen.Text = "Open"
+    else
+    button1.Visible = true
+    button2.Visible = true
+    button3.Visible = true
+    button4.Visible = true
+    button5.Visible = true
+    button6.Visible = true
+    button7.Visible = true
+    button8.Visible = true
+    button9.Visible = true
+    button10.Visible = true
+    button11.Visible = true
+    button12.Visible = true
+    button13.Visible = true
+    buttOpen.Text = "Close"
+end
+end
+
+buttOpen.MouseButton1Click:Connect(buttopen)
